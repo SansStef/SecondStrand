@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8a8ae546da1664c9052751d1f13702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 50
   repairRate: 30
   brokenSprite: {fileID: 21300000, guid: 58a6f0d55ac6c084fbb7ea29a55c5b85, type: 3}
   damagedSprite: {fileID: 21300000, guid: 06433cc1458d3b7418b938d1002f9dd5, type: 3}
