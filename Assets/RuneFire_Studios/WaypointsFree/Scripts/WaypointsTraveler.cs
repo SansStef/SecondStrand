@@ -21,6 +21,9 @@ namespace WaypointsFree
         [Tooltip("Auto-start movement if true.")]
         public bool AutoStart = false;
 
+        [Tooltip("Frame delay before Auto-start")]
+        public int StartDelay = 0;
+
         //[Range(0,float.MaxValue)]
         public float MoveSpeed = 5.0f;
 
@@ -71,12 +74,11 @@ namespace WaypointsFree
         bool isMoving = false; // Movement on/off
 
 
-
         Vector3 positionOriginal;
         Quaternion rotationOriginal;
         float moveSpeedOriginal = 0;
         float lookAtSpeedOriginal = 0;
-
+        int delayOriginal = 0;
 
 
         public void ResetTraveler()
@@ -104,6 +106,7 @@ namespace WaypointsFree
         {
             moveSpeedOriginal = MoveSpeed;
             lookAtSpeedOriginal = LookAtSpeed;
+            delayOriginal = StartDelay;
 
             positionOriginal = transform.position;
             rotationOriginal = transform.rotation;
@@ -119,6 +122,10 @@ namespace WaypointsFree
             isMoving = tf;
         }
 
+        private bool isDelay(){
+            return delayOriginal > 0;
+        }
+
         private void Awake()
         {
             if (Waypoints != null)
@@ -130,7 +137,7 @@ namespace WaypointsFree
         // Update is called once per frame
         void Update()
         {
-            if (isMoving == true && moveFunc != null)
+            if (isMoving == true && moveFunc != null && !isDelay())
             {
                 bool arrivedAtDestination = false;
 
@@ -142,6 +149,8 @@ namespace WaypointsFree
                     SetNextPosition();
                 }
             }
+
+            delayOriginal = delayOriginal <= 0 ? 0 : delayOriginal - 1;
         }
 
         /// <summary>

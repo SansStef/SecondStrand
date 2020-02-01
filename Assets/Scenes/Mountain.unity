@@ -391,7 +391,8 @@ MonoBehaviour:
   Waypoints: {fileID: 103814859}
   XYZConstraint: 0
   AutoStart: 1
-  MoveSpeed: 5
+  StartDelay: 500
+  MoveSpeed: 1
   LookAtSpeed: 0
   StartIndex: 0
   AutoPositionAtStart: 0
