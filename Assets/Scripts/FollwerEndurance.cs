@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using WaypointsFree;
 
 public class FollwerEndurance : MonoBehaviour
 {
@@ -40,7 +41,8 @@ public class FollwerEndurance : MonoBehaviour
 
     void Die()
     {
-
+    	GetComponent<Collider2D>().attachedRigidbody.gravityScale = 1;
+    	GetComponent<WaypointsTraveler>().Move(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)

@@ -2320,7 +2320,7 @@ PrefabInstance:
     - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: Skill
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
