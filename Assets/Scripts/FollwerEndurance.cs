@@ -8,11 +8,12 @@ public class FollwerEndurance : MonoBehaviour
 	public int StartEndurance;
 
 	int endurance = 0;
-	//PitonPrefab[] traversedPiton;
+	HashSet<Collider2D> traversedPiton;
 
     // Start is called before the first frame update
     void Start()
     {
+    	traversedPiton = new HashSet<Collider2D>();
         endurance = StartEndurance;
     }
 
@@ -26,16 +27,17 @@ public class FollwerEndurance : MonoBehaviour
 
     // }
 
-    void hurt()
+    void Hurt()
     {
 
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "piton")
+        if (!traversedPiton.Contains(other) && other.gameObject.tag == "piton")
         {
-	        Debug.Log("NPC collided trigger");        
+	        Debug.Log("NPC collided trigger");
+	        traversedPiton.Add(other);
         }
 
     }
