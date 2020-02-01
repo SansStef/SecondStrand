@@ -468,7 +468,7 @@ PrefabInstance:
     - target: {fileID: 2996840415543617544, guid: 060f51fdb89a54a43b40e07bed23d294,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2996840415543617545, guid: 060f51fdb89a54a43b40e07bed23d294,
         type: 3}
@@ -1334,6 +1334,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: Skill
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: EnduranceDamage
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}

@@ -48,6 +48,10 @@ public class PitonInteraction : MonoBehaviour
 
     }
 
+    public float GetHealth()
+    {
+        return health;
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
