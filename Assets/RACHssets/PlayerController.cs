@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
     public float verticalMovementSpeed = 20.0f;
     public float horizontalMovementSpeed = 10.0f;
 
-    // bool isClimbing = false;
-    // bool isClimbing = false;
+    bool isClimbing = false;
+    bool isRepairing = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,18 +26,42 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    // void UpdateAnimations()
-    // {
-    //     animator.SetBool("isClimbing", isClimbing);
-    //     animator.SetBool("isRepairing", isRepairing);
-    // }
+    void UpdateAnimations()
+    {
+        animator.SetBool("isClimbing", isClimbing);
+        animator.SetBool("isRepairing", isRepairing);
+    }
 
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey(KeyCode.Space)){
+            isRepairing = true;
+        }
+        else{
+            isRepairing = false;
+        }
+
         // Gives a value between -1 and 1
-        horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
-        vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+        if(isRepairing){
+            isClimbing = false;
+            horizontal = 0;
+            vertical = 0;
+        }
+        else{
+            horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
+            vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+
+            if(horizontal != 0 && vertical != 0){
+                isClimbing = true;
+            }
+            else{
+                isClimbing = false;
+            }
+        }
+        
+
+        UpdateAnimations();
     }
 
     void FixedUpdate()
