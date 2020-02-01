@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 2b1e2a1f6510c3e49a05dd5488945713, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad2d71c1fd48446239174a960db78142, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,9 +114,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   repairRate: 30
-  brokenSprite: {fileID: 21300000, guid: 58a6f0d55ac6c084fbb7ea29a55c5b85, type: 3}
-  damagedSprite: {fileID: 21300000, guid: 06433cc1458d3b7418b938d1002f9dd5, type: 3}
-  healthySprite: {fileID: 21300000, guid: c7462a00fe6ed54408b898c7a7410f54, type: 3}
+  brokenSprite: {fileID: 21300000, guid: 0909bd94c614a4ef69ec1696d26a9754, type: 3}
+  damagedSprite: {fileID: 21300000, guid: ad8b621d43b714d44b59c11084e685fe, type: 3}
+  healthySprite: {fileID: 21300000, guid: ad2d71c1fd48446239174a960db78142, type: 3}
 --- !u!58 &2996840415543617540
 CircleCollider2D:
   m_ObjectHideFlags: 0
