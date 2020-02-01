@@ -19,7 +19,7 @@ public class PitonInteraction : MonoBehaviour
     void Start()
     {
         float startingHealth = Random.Range(0, maxHealth);
-        Debug.Log("Starting health" + startingHealth);
+        //Debug.Log("Starting health" + startingHealth);
         health = startingHealth;
 
     }
@@ -30,7 +30,7 @@ public class PitonInteraction : MonoBehaviour
         if (playerInRangeOfPiton && Input.GetKey(KeyCode.Space))
         {
             health += repairRate * Time.deltaTime; // time since the last frame.  so essentially repairRate is the repair per second that the key is held down?
-            Debug.Log("Repairing the piton, health is now " + health);
+            //Debug.Log("Repairing the piton, health is now " + health);
         }
 
         if (health >= maxHealth)
@@ -51,13 +51,13 @@ public class PitonInteraction : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Player collided trigger");
+        //Debug.Log("Player collided trigger");
         playerInRangeOfPiton = true;
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Player exited trigger");
+        //Debug.Log("Player exited trigger");
         playerInRangeOfPiton = false;
     }
 }

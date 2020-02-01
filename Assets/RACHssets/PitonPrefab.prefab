@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2996840415543617540}
   m_Layer: 0
   m_Name: PitonPrefab
-  m_TagString: Untagged
+  m_TagString: piton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +91,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2996840415543617545}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
