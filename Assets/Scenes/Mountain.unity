@@ -426,6 +426,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: Skill
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: EnduranceDamage
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: m_Name
@@ -434,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482204, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
@@ -495,7 +505,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 75a9040b0b2db48bb8c2e8882b4c6028,
+      objectReference: {fileID: 21300000, guid: 235f363bb66184da2bd77185e1f28a0a,
         type: 3}
     - target: {fileID: 7054286040060482207, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
@@ -963,6 +973,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: EnduranceDamage
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
+        type: 3}
+      propertyPath: Skill
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: m_Name
@@ -971,7 +991,7 @@ PrefabInstance:
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482204, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
@@ -1032,7 +1052,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1f212ff2992774d669d083d2fdce2428,
+      objectReference: {fileID: 21300000, guid: 53c3010ae430847409107e2e7945fa42,
         type: 3}
     - target: {fileID: 7054286040060482207, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
@@ -2325,7 +2345,7 @@ PrefabInstance:
     - target: {fileID: 1519128941544396741, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
       propertyPath: EnduranceDamage
-      value: 15
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 7054286040060482194, guid: 9444428f52a6445b7b99e8c289e2a384,
         type: 3}
