@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody2D body;
+    Animator animator;
 
     float horizontal;
     float vertical;
@@ -14,11 +15,22 @@ public class PlayerController : MonoBehaviour
     public float verticalMovementSpeed = 20.0f;
     public float horizontalMovementSpeed = 10.0f;
 
+    // bool isClimbing = false;
+    // bool isClimbing = false;
+
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+
     }
+
+    // void UpdateAnimations()
+    // {
+    //     animator.SetBool("isClimbing", isClimbing);
+    //     animator.SetBool("isRepairing", isRepairing);
+    // }
 
     // Update is called once per frame
     void Update()
