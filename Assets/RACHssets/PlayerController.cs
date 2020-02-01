@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
             horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
             vertical = Input.GetAxisRaw("Vertical"); // -1 is down
 
-            if(horizontal != 0 && vertical != 0){
+            if(horizontal != 0 || vertical != 0){
                 isClimbing = true;
             }
             else{
