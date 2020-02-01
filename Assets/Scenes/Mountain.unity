@@ -141,32 +141,32 @@ PrefabInstance:
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.81
+      value: -0.94
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.68
+      value: 4.69
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992361654658744039, guid: a41493f8c6f9e4fbe89bff745b2e1626,
         type: 3}
@@ -1335,6 +1335,7 @@ GameObject:
   - component: {fileID: 1209854461}
   - component: {fileID: 1209854460}
   - component: {fileID: 1209854459}
+  - component: {fileID: 1209854464}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1457,6 +1458,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1209854464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209854458}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 16a0378e4ad9e4e9bb39d837b4b5658c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1212900984
 PrefabInstance:
   m_ObjectHideFlags: 0
