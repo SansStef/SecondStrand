@@ -152,51 +152,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   XYZConstraint: 1
   waypoints:
-  - position: {x: 1.9032657, y: 1.5731986, z: 0}
+  - position: {x: -0.07975638, y: -4.5080686, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 1.9032657, y: 1.5731986, z: 0}
-    xyPosition: {x: 1.9032657, y: 1.5731986, z: 0}
-    xzPosition: {x: 1.9032657, y: 0, z: 0}
-  - position: {x: 1.3873875, y: 0.3034916, z: 0}
+    xyzPosition: {x: -0.07975638, y: -4.5080686, z: 0}
+    xyPosition: {x: -0.07975638, y: -4.5080686, z: 0}
+    xzPosition: {x: -0.07975638, y: 0, z: 0}
+  - position: {x: -0.8600377, y: -3.5303514, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 1.3873875, y: 0.3034916, z: 0}
-    xyPosition: {x: 1.3873875, y: 0.3034916, z: 0}
-    xzPosition: {x: 1.3873875, y: 0, z: 0}
-  - position: {x: 1.794379, y: -1.0634406, z: 0}
+    xyzPosition: {x: -0.8600377, y: -3.5303514, z: 0}
+    xyPosition: {x: -0.8600377, y: -3.5303514, z: 0}
+    xzPosition: {x: -0.8600377, y: 0, z: 0}
+  - position: {x: 0.4062631, y: -2.914261, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 1.794379, y: -1.0634406, z: 0}
-    xyPosition: {x: 1.794379, y: -1.0634406, z: 0}
-    xzPosition: {x: 1.794379, y: 0, z: 0}
-  - position: {x: 1.1447475, y: -2.0234218, z: 0}
+    xyzPosition: {x: 0.4062631, y: -2.914261, z: 0}
+    xyPosition: {x: 0.4062631, y: -2.914261, z: 0}
+    xzPosition: {x: 0.4062631, y: 0, z: 0}
+  - position: {x: -0.7060729, y: -2.4530766, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 1.1447475, y: -2.0234218, z: 0}
-    xyPosition: {x: 1.1447475, y: -2.0234218, z: 0}
-    xzPosition: {x: 1.1447475, y: 0, z: 0}
-  - position: {x: 0.39268732, y: -3.2083292, z: 0}
+    xyzPosition: {x: -0.7060729, y: -2.4530766, z: 0}
+    xyPosition: {x: -0.7060729, y: -2.4530766, z: 0}
+    xzPosition: {x: -0.7060729, y: 0, z: 0}
+  - position: {x: -0.33442092, y: -1.2583573, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 0.39268732, y: -3.2083292, z: 0}
-    xyPosition: {x: 0.39268732, y: -3.2083292, z: 0}
-    xzPosition: {x: 0.39268732, y: 0, z: 0}
-  - position: {x: -0.19571352, y: -4.19932, z: 0}
+    xyzPosition: {x: -0.33442092, y: -1.2583573, z: 0}
+    xyPosition: {x: -0.33442092, y: -1.2583573, z: 0}
+    xzPosition: {x: -0.33442092, y: 0, z: 0}
+  - position: {x: -1.286376, y: 0.1633296, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: -0.19571352, y: -4.19932, z: 0}
-    xyPosition: {x: -0.19571352, y: -4.19932, z: 0}
-    xzPosition: {x: -0.19571352, y: 0, z: 0}
-  - position: {x: -0.010435581, y: 4.3810573, z: 0}
+    xyzPosition: {x: -1.286376, y: 0.1633296, z: 0}
+    xyPosition: {x: -1.286376, y: 0.1633296, z: 0}
+    xzPosition: {x: -1.286376, y: 0, z: 0}
+  - position: {x: -0.47314095, y: 1.9022803, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: -0.010435581, y: 4.3810573, z: 0}
-    xyPosition: {x: -0.010435581, y: 4.3810573, z: 0}
-    xzPosition: {x: -0.010435581, y: 0, z: 0}
-  - position: {x: 0.54699683, y: 3.2042563, z: 0}
+    xyzPosition: {x: -0.47314095, y: 1.9022803, z: 0}
+    xyPosition: {x: -0.47314095, y: 1.9022803, z: 0}
+    xzPosition: {x: -0.47314095, y: 0, z: 0}
+  - position: {x: 1.0758022, y: 2.7746015, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 0.54699683, y: 3.2042563, z: 0}
-    xyPosition: {x: 0.54699683, y: 3.2042563, z: 0}
-    xzPosition: {x: 0.54699683, y: 0, z: 0}
-  - position: {x: 0.95789003, y: 2.375674, z: 0}
+    xyzPosition: {x: 1.0758022, y: 2.7746015, z: 0}
+    xyPosition: {x: 1.0758022, y: 2.7746015, z: 0}
+    xzPosition: {x: 1.0758022, y: 0, z: 0}
+  - position: {x: -0.29802418, y: 4.4908977, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-    xyzPosition: {x: 0.95789003, y: 2.375674, z: 0}
-    xyPosition: {x: 0.95789003, y: 2.375674, z: 0}
-    xzPosition: {x: 0.95789003, y: 0, z: 0}
+    xyzPosition: {x: -0.29802418, y: 4.4908977, z: 0}
+    xyPosition: {x: -0.29802418, y: 4.4908977, z: 0}
+    xzPosition: {x: -0.29802418, y: 0, z: 0}
 --- !u!4 &103814860
 Transform:
   m_ObjectHideFlags: 0
@@ -304,13 +304,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1554770121}
   - component: {fileID: 1554770120}
+  - component: {fileID: 1554770122}
   m_Layer: 0
   m_Name: Follower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1554770120
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -369,9 +370,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554770119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.24, z: 0}
+  m_LocalPosition: {x: -0.06, y: -4.34, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1554770122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554770119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4650cc3407a19a941a6c01a1ddbc876c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Waypoints: {fileID: 103814859}
+  XYZConstraint: 0
+  AutoStart: 1
+  MoveSpeed: 5
+  LookAtSpeed: 0
+  StartIndex: 0
+  AutoPositionAtStart: 0
+  StartTravelDirection: 0
+  EndReachedBehavior: 0
+  StartingMovementType: 0
